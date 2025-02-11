@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Reviews</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #d9534f;
+    color: white;
+    padding: 20px;
+}
+
+#reviews {
+    margin: 20px auto;
+    width: 60%;
+}
+
+.review {
+    background-color: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+
+#submit-review {
+    margin-top: 20px;
+}
+
+textarea {
+    width: 60%;
+    height: 80px;
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+
+    </style>
+   
+    
+</head>
+<body>
+
+    <header>
+        <h1>What Our Customers Say</h1>
+        <p>Read what our guests think about our food and service!</p>
+    </header>
+
+    <section id="reviews">
+        <div class="review">
+            <h3>John Doe</h3>
+            <p>⭐⭐⭐⭐⭐</p>
+            <p>"Amazing food and great ambiance. Highly recommend the pasta dishes!"</p>
+        </div>
+
+        <div class="review">
+            <h3>Sarah Smith</h3>
+            <p>⭐⭐⭐⭐</p>
+            <p>"Friendly staff and delicious meals. Will visit again!"</p>
+        </div>
+
+        <div class="review">
+            <h3>Michael Brown</h3>
+            <p>⭐⭐⭐⭐⭐</p>
+            <p>"Best steak I've ever had. Worth every penny!"</p>
+        </div>
+    </section>
+
+    <section id="submit-review">
+        <h2>Leave Your Review</h2>
+        <textarea id="opinion" placeholder="Write your review here..."></textarea><br>
+        <button>Submit</button>
+    </section>
+
+</body>
+</html>
